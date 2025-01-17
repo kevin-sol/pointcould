@@ -1,0 +1,22 @@
+# dir 不需要提交的目录
+/node_modules
+
+# file 不需要提交的文件
+config.ini
+
+# log 不需要提交的任意包含后缀名为log的文件
+*.log
+
+# Package Files 不需要提交的任意包含后缀名为jar的文件
+*.jar
+
+__pycache__
+.idea
+.vscode
+/pointcloud_video/data/longdress/tiles/*
+/pointcloud_video/model_compare/data/Videos/*
+
+results/*
+
+downloaded_plms
+ft_plms
